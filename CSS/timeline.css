@@ -1,0 +1,85 @@
+.page-header{
+  border-bottom: none;
+}
+
+.page-header #timeline{
+  text-align: center;
+  color: black;
+  text-decoration: ;
+  font-family: Impact;
+  font-size: 5em;
+  text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+}
+
+#space{
+  margin-bottom: 10em;
+}
+
+
+.timeline-panel{
+min-height: 22em;
+border-radius: .2em;
+position: relative;
+}
+
+#UofI_photo{
+  background-image:url(/images2/UofI.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#CBOE{
+  background-image:url(/images2/CBOE.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#CBOT{
+  background-image:url(/images2/CBOT.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Walleye{
+  background-image:url(/images2/Walleye.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ETrading{
+  background-image:url(/images2/ETrading.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Coding_Temple{
+  background-image:url(/images2/CodingTemple.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#timeline-background{
+  background-image:url(/images2/charcoal-gray.jpg);
+  background-size: cover;
+}
+
+
+.description{
+  text-align: center;
+  min-width: 94%;
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  margin-top: 2em;
+  bottom: 0;
+  position: absolute;
+  border-radius: 2em;
+}
+
+#last{
+  bottom: .025em;
+}

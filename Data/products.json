@@ -1,0 +1,141 @@
+[{
+	"name": "Dodecahedron",
+	"price": 2.95,
+	"description": "This gem is very rare",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great!!!!",
+		"author": "georgemakris72@gmail.com"
+	}],
+	"canPurchase": true,
+	"soldOut": false,
+	"images": [{
+		"full": "Images2/Dodechohedron.jpg"
+	}]
+}, {
+	"name": "Diamond",
+	"price": 500,
+	"description": "This is a cool gem!",
+	"reviews": [{
+		"stars": 2,
+		"body": "This gem sucked!!!!",
+		"author": "joel@codingtemple.com"
+	}],
+	"canPurchase": true,
+	"soldOut": false,
+	"images": [{
+		"full": "Images2/Diamond.jpg"
+	}]
+}, {
+	"name": "Ruby",
+	"price": 50,
+	"description": "This isn't as cool",
+	"reviews": [{
+		"stars": 1,
+		"body": "Worst ever!!!!",
+		"author": "joel@codingtemple.com"
+	}],
+	"canPurchase": false,
+	"soldOut": false,
+	"images": [{
+		"full": "Images2/ruby.jpg"
+	}]
+}, {
+	"name": "Saphire",
+	"price": 2.95,
+	"description": "This gem is very rare",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great!!!!",
+		"author": "joel@codingtemple.com"
+	}],
+	"canPurchase": true,
+	"soldOut": false,
+	"images": [{
+		"full": "Images2/sapphire.jpg"
+	}]
+}, {
+	"name": "Emerald",
+	"price": 500,
+	"description": "This is a cool gem!",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great!!!!",
+		"author": "joel@codingtemple.com"
+	}],
+	"canPurchase": true,
+	"soldOut": false,
+	"images": [{
+		"full": "Images2/emerald.jpg"
+	}]
+}, {
+	"name": "Onyx",
+	"price": 50,
+	"description": "This isn't as cool",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great!!!!",
+		"author": "joel@codingtemple.com"
+	}],
+	"canPurchase": false,
+	"soldOut": false,
+	"images": [{
+		"full": "Images2/Onyx.jpg"
+	}]
+}, {
+	"name": "Amethyst",
+	"price": 2.95,
+	"description": "This gem is very rare",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great!!!!",
+		"author": "joel@codingtemple.com"
+	}],
+	"canPurchase": true,
+	"soldOut": false,
+	"images": [{
+		"full": "Images2/Amethyst2.jpg"
+	}]
+}, {
+	"name": "Tanzanite",
+	"price": 500,
+	"description": "This is a cool gem!",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great!!!!",
+		"author": "joel@codingtemple.com"
+	}],
+	"canPurchase": true,
+	"soldOut": false,
+	"images": [{
+		"full": "Images2/tanzanite.jpg"
+	}]
+}, {
+	"name": "Topaz",
+	"price": 50,
+	"description": "This isn't as cool",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great!!!!",
+		"author": "joel@codingtemple.com"
+	}],
+	"canPurchase": false,
+	"soldOut": false,
+	"images": [{
+		"full": "Images2/topaz-.jpg"
+	}]
+}, {
+	"name": "Jade",
+	"price": 2.95,
+	"description": "This gem is very rare",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great!!!!",
+		"author": "joel@codingtemple.com"
+	}],
+	"canPurchase": true,
+	"soldOut": false,
+	"images": [{
+		"full": "Images2/jade.jpg"
+	}]
+}]

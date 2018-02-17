@@ -1,0 +1,61 @@
+<div class="container">
+  <div ng-controller="myController" class="g">
+    <!--Firebase Email/Password Email/Password Register-Login-Logout form-->
+    <div ng-show="authenticated"> <a href ng-click="Logout()" class="btn btn-default">Log Out</a> </div>
+    <div ng-hide="authenticated">
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input class="form-control" name="email" ng-model="email" type="email" required /> </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input class="form-control" name="password" ng-model="password" type="password" required /> </div>
+        <input type="submit" ng-click="Login()" value="Login" class="btn btn-default" />
+        <input type="submit" ng-click="Register()" value="Register" class="btn btn-default" />
+      </form>
+    </div>
+
+    <div class="col-sm-4" ng-repeat="i in Gems track by $index">
+      <!--  <h1> {{Gems.name}}</h1>
+    <img ng-src={{"Images/gem-01.gif"}} alt="">
+    <p> {{Gems.price}}</p>
+    <p> {{Gems.description}}</p>
+    <button ng-show="Gems.canPurchase" ng-hide= "Gems.soldOut" class= "btn btn-success"> Add to Cart </button> -->
+      <!--<h1> {{$index+1}}</hi>-->
+      <div class="" ng-repeat="photos in i.images">
+
+
+        <img ng-src="{{photos.full}}" alt="" />
+        <!--  <h1> {{$index}}</hi>-->
+        <h1> {{i.name}}</h1>
+        <p> {{i.price | currency}}</p>
+        <!--<section ng-init="tab=1">
+      <ul class ="nav nav-pills" id="navlist">
+        <li class="nav-item" ng-class="{active:tab===1}"><a href ng-click="tab=1">Description</a></li>
+        <li class="nav-item" ng-class="{active:tab===2}"><a href ng-click="tab=2">Specifications</a></li>
+        <li class="nav-item" ng-class="{active:tab===3}"><a href ng-click="tab=3">Reviews</a></li>
+      </ul>
+
+      <div class="panel" ng-show ="tab===1">
+        <h4>Description</h4>
+        <p> {{i.description}}</p>
+      </div>
+      <div class="panel" ng-show = "tab===2">
+        <h4>Specicifications</h4>
+        <blockquote>In Development</blockquote>
+      </div>
+      <div class="panel" ng-show = "tab===3">
+        <h4>Reviews</h4>
+        <blockquote>In Development</blockquote>
+      </div>
+    </section>-->
+      <!--<section ng-controller="panelController" ng-include="'templates/panels.html'">  -->
+  <!--  <section ng-controller="panelController"gem-panels>-->
+      <section gem-panels>
+      </section>
+        <button ng-show="i.canPurchase" ng-hide="i.soldOut" class="btn btn-success" id="button5"> Add to Cart </button>
+
+      </div>
+    </div>
+  </div>
+</div>

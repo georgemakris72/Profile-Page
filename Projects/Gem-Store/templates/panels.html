@@ -1,0 +1,33 @@
+
+  <ul class="nav nav-pills" id="navlist">
+    <li class="nav-item" ng-class="{active:tab===1}"><a ng-click="selectTab(1)" href>Description</a></li>
+    <li class="nav-item" ng-class="{active:tab===2}"><a href ng-click="selectTab(2)">Specifications</a></li>
+    <li class="nav-item" ng-class="{active:tab===3}"><a href ng-click="selectTab(3)">Reviews</a></li>
+  </ul>
+
+  <div class="panel product-panels" ng-show="tab===1">
+    <h4>Description</h4>
+    <blockquote> {{i.description}}</blockquote>
+  </div>
+  <div class="panel product-panels" ng-show="tab===2">
+    <h4>Specicifications</h4>
+    <p>In Development</p>
+  </div>
+  <div class="panel product-panels" ng-show="tab===3">
+    <h4>Reviews</h4>
+    <blockquote ng-repeat="reviews in i.reviews"><b>{{reviews.stars}}</b>
+      <p>{{reviews.body}}</p>
+        <img ng-init="avatar = Avatar.generate(newReview.author)" ng-src="{{avatar}}" />
+      <cite>{{reviews.author}}</cite>
+    </blockquote>
+    <blockquote ng-repeat="newStuff in info">
+      <b>{{newStuff.stars}}</b>
+      <p>{{newStuff.body}}</p>
+      <cite>{{newStuff.author}}</cite>
+    </blockquote>
+    <h4> Write a review</h4>
+
+    <form name="reviewForm" store-reviews ng-submit="reviewForm.$valid && addReview(i)" novalidate>
+
+    </form>
+  </div>

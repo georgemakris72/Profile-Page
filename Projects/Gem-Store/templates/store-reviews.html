@@ -1,0 +1,31 @@
+<blockquote>
+  <b>Stars: {{newReview.stars}}</b>
+  <p>Body: {{newReview.body}}</p>
+  <cite>Author:{{newReview.author}}</cite>
+</blockquote>
+<div class="alert alert-danger" ng-show="(reviewForm.stars.$dirty && reviewForm.stars.$invalid) || (reviewForm.body.$dirty && reviewForm.body.$invalid) || (reviewForm.author.$dirty && reviewForm.author.$invalid)" role="alert">
+  <ul>
+    <li ng-show="reviewForm.stars.$dirty && reviewForm.stars.$invalid">Rating is required</li>
+    <li ng-show="reviewForm.body.$dirty && reviewForm.body.$invalid">Review is required</li>
+    <li ng-show="reviewForm.author.$dirty && reviewForm.author.$invalid">Email is required</li>
+  </ul></div>
+<div class="form-group" ng-class="{'has-error': reviewForm.stars.$dirty && reviewForm.stars.$invalid}">
+  <label for="stars" class="control-label">Rating</label>
+  <select class="form-control" name="stars" ng-model="newReview.stars" required>
+    <option value ="1">1<option>
+    <option value ="2">2<option>
+    <option value ="3">3<option>
+    <option value ="4">4<option>
+    <option value ="5">5<option>
+  </select>
+</div>
+<div class="form-group" ng-class="{'has-error': reviewForm.body.$dirty && reviewForm.body.$invalid}">
+  <label for "body" class="control-label">Review</label>
+  <textarea name="body" class="form-control" placeholder="Write Your Review" ng-model="newReview.body" required></textarea>
+</div>
+<div class="form-group" ng-class="{'has-error': reviewForm.author.$dirty && reviewForm.author.$invalid, 'has-success':reviewForm.author.$valid-email}">
+  <label for "author" class="control-label">Author</label>
+
+  <input type="email" name="author" class="form-control" placeholder="Email Address" ng-model="newReview.author" required>
+</div>
+<input type="submit" class="btn btn-default" value="Add Review">

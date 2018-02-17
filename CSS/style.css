@@ -1,0 +1,245 @@
+body,html{
+  padding:0;
+  margin:0;
+  background-color: black;
+}
+
+.jumbotron{
+    margin: 0;
+    position: relative;
+}
+
+.navbar-default{
+  background-color: black;
+  border: 0;
+  margin-top: -3.5em;
+  margin-right: 4em;
+  width: 100%;
+}
+
+.navbar-default .container-fluid{
+  margin-right: 2.5em;
+}
+
+.navbar-default li a {
+  color:white !important;
+  font-size: 1.25em;
+}
+
+#summary{
+  background-color: white;
+  margin-right: .2em;
+  margin-bottom: .2em;
+  position: absolute;
+  bottom: 0;
+  right:0;
+  max-width: 5em;
+  font-family: 'Montserrat', sans-serif;
+  color: blue;
+  font-size: 8em;
+  padding: 0 .2em .2em .2em;
+  border-radius: .1em;
+}
+
+#summary h2{
+  color: red;
+}
+
+
+.parallax {
+    background-image: url(/images/Atom.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-background{
+  min-height: 54em;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
+
+.Resback {
+  background-image: url(/images/ResumeImg2.png);
+  background-size: cover;
+  height: 100%;
+  min-height: 50em;
+  filter:blur(3px);
+}
+
+#page2 {
+  line-height: 5em;
+  color:red;
+}
+
+#main-section{
+  min-height: 26em;
+  background-image: url(/images/paper.jpg);
+}
+
+.nav {
+  text-align: center;
+  float: none;
+}
+
+.nav li {
+  float: none;
+  display: inline-block;
+}
+
+.nav-links {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  color: black;
+}
+
+
+
+#links{
+  background-image: url(/images/WheelBackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100em;
+}
+
+
+.wheel{
+  margin-top: 2em;
+  float: none;
+  padding-bottom: 3em;
+}
+
+.placement{
+  margin-bottom: -1em;
+}
+
+.carousel-caption a h3{
+  font-size: 2.5em;
+  color: purple;
+  background-color: white;
+  display: inline-block;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  padding-bottom: 0.1em;
+  border-radius: .1em;
+  margin-top: -2em;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#accordion{
+  margin-top: 2em;
+  margin-bottom: -2em;
+}
+
+.panel, .panel-heading{
+  background-color: black !important;
+  border-radius: .2em;
+}
+
+.dropdown{
+  text-decoration: none;
+}
+
+.panel h4{
+  color:white;
+  font-size: 1.5em;
+}
+
+.panel-body{
+  font-size: .75em;
+  background-color: white;
+  color: red;
+}
+
+.title{
+  color: black;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+  text-decoration: underline;
+  font-size: 4em;
+}
+
+#project-title{
+  margin-top: 4em;
+}
+
+#project-title, #link-title{
+  text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+}
+
+#george{
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: yellow;
+}
+
+#georgePic{
+  margin: auto;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 2em;
+}
+
+.carousel-control{
+  opacity: 0.75;
+  border-radius: .2em;
+}
+
+#contact-me{
+  background-image: url(/images/paper.jpg);
+  min-height: 34em;
+  max-height: 34em;
+}
+
+#contact-me h3{
+  text-align: center;
+}
+
+
+#final h3{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  font-size: 2.5em;
+}
+
+#final-background{
+  background-image: url(/images/final.jpeg);
+  min-height: 50em;
+}
+
+#final-background h1 {
+  margin-top: 10%;
+  text-align: center;
+  color: white;
+  text-shadow:
+		-3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
+}
